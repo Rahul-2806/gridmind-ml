@@ -1,0 +1,28 @@
+{
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ]
+}
+```
+
+**Step 2** — Update `requirements.txt`:
+```
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+xgboost
+scipy
+cohere
+python-dotenv
+mangum

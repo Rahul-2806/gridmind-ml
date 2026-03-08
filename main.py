@@ -7,6 +7,8 @@ import pandas as pd
 import numpy as np
 import pickle
 from scipy.optimize import linprog
+from mangum import Mangum
+handler = Mangum(app)
 
 from fastapi.responses import StreamingResponse
 import json
