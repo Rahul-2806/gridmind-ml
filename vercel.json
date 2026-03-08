@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "main.py",
@@ -12,17 +13,3 @@
     }
   ]
 }
-```
-
-**Step 2** — Update `requirements.txt`:
-```
-fastapi
-uvicorn
-pandas
-numpy
-scikit-learn
-xgboost
-scipy
-cohere
-python-dotenv
-mangum
